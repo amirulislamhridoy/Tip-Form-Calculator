@@ -1,0 +1,83 @@
+body{
+    background-color: rgba(89, 183, 220, 0.838);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+form{
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    width: 700px;
+}
+h1{
+    color: white;
+    background-color: rgb(9, 100, 135);
+    text-align: center;
+    padding: 15px 0;
+    margin: 0;
+}
+form > div{
+    padding: 40px;
+    padding-bottom: 20px;
+}
+label{
+    font-size: 22px;
+    font-weight: 600;
+    display: block;
+    margin-top: 20px;
+}
+.input-div{
+    display: flex;
+}
+i{
+    border: 1px solid rgb(9, 100, 135);
+    padding: 12px;
+    background-color: rgb(9, 100, 135);
+    color: white;
+    font-size: 18px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 2;
+}
+input[type='number']{
+    width: 100%;
+    font-size: 20px;
+    padding: 0 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 2px solid rgba(128, 128, 128, 0.542);
+}
+input[type='number']:focus{
+    outline: 3px solid rgba(89, 183, 220, 0.595);
+}
+select{
+    width: 100%;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 2px solid rgba(128, 128, 128, 0.542);
+    margin-bottom: 20px;
+}
+select:focus{
+    outline: 3px solid rgba(89, 183, 220, 0.595);
+}
+.submit{
+    text-align: center;
+}
+input[type='submit']{
+    width: 400px;
+    padding: 10px 0;
+    font-size: 18px;
+    color: white;
+    border: 0;
+    background-color: rgb(9, 100, 135);
+    border-radius: 5px;
+    cursor: pointer;
+}
+input:hover[type='submit']{
+    background-color: rgba(89, 183, 220, 0.595);
+    color: black;
+}
