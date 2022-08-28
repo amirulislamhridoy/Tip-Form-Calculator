@@ -19,8 +19,21 @@ h1{
     padding: 15px 0;
     margin: 0;
 }
-form > div{
+.card-div{
+    margin: 0 40px;
+    text-align: center;
+    background-color: rgba(227, 109, 109, 0.394);
+    border-radius: 5px;
+}
+.card-div p:first-child{
+    padding-top: 10px;
+}
+.card-div p:last-child{
+    padding-bottom: 10px;
+}
+.card-div2{
     padding: 40px;
+    padding-top: 0;
     padding-bottom: 20px;
 }
 label{
@@ -87,10 +100,14 @@ input:hover[type='submit']{
     form{
         width: 500px;
     }
+    body{
+        min-height: 100vh;
+    }
 }
 @media screen and (max-width: 550px){
     form{
         width: 80%;
+        margin-top: 100px;
     }
     input[type='submit']{
         width: 60%;

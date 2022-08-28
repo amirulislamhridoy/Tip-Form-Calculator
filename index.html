@@ -16,21 +16,24 @@
 </head>
 
 <body>
-    <form class="card">
+    <form class="card" id="form">
         <h1>TIP CALCULATOR</h1>
-        <div>
-            <label>How Much Was Your Bill?</label>
+        <div class="card-div" id="card-div">
+
+        </div>
+        <div class="card-div2">
+            <label for="bill-input">How Much Was Your Bill?</label>
             <div class="input-div">
                 <i class="fa-solid fa-dollar-sign"></i>
-                <input type="number">
+                <input type="number" id="bill-input" name="bill">
             </div>
-            <label>How Many People Sharing The Bill?</label>
+            <label for="people-input">How Many People Sharing The Bill?</label>
             <div class="input-div">
                 <i class="fa-solid fa-user"></i>
-                <input type="number">
+                <input type="number" id="people-input" name="people">
             </div>
             <label>How Was Your Service?</label>
-            <select>
+            <select id="service" name="service">
                 <option value="Choose...">Choose...</option>
                 <option value="Great - 20%">Great - 20%</option>
                 <option value="Good - 10%">Good - 10%</option>
