@@ -7,10 +7,10 @@ body{
     margin: 0;
 }
 form{
+    width: 700px;
     border-radius: 10px;
     overflow: hidden;
     background-color: white;
-    width: 700px;
 }
 h1{
     color: white;
@@ -80,4 +80,19 @@ input[type='submit']{
 input:hover[type='submit']{
     background-color: rgba(89, 183, 220, 0.595);
     color: black;
+}
+
+
+@media screen and (max-width: 800px){
+    form{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 550px){
+    form{
+        width: 80%;
+    }
+    input[type='submit']{
+        width: 60%;
+    }
 }
